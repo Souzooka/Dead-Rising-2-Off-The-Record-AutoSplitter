@@ -33,7 +33,7 @@ startup
         //Case 2 Splits
         settings.Add("case02", true, "Case 2", "splits");
             settings.Add("028a", false, "Case 2-1", "case02");
-            settings.Add("092_", false, "Case 2-2", "case02");
+            settings.Add("092_", false, "Brandon", "case02");
 
         //Case 3 Splits
         settings.Add("case03", true, "Case 3", "splits");
@@ -49,16 +49,16 @@ startup
         settings.Add("case05", true, "Case 5", "splits");
             settings.Add("038a", false, "Case 5-1", "case05");
             settings.Add("039_", false, "Case 5-2", "case05");
-            settings.Add("Twins", false, "Case 5-3", "case05");
+            settings.Add("Twins", false, "Twins", "case05");
 
         //Case 6 Splits
         settings.Add("case06", true, "Case 6", "splits");
-            settings.Add("048_", false, "Case 6-1", "case06");
+            settings.Add("048_", false, "Helicopter", "case06");
 
         //Case 7 Splits
         settings.Add("case07", true, "Case 7", "splits");
             settings.Add("050b", false, "Case 7-1", "case07");
-            settings.Add("053_", false, "Case 7-2", "case07");
+            settings.Add("053_", false, "Boykin", "case07");
             settings.Add("054a", false, "Case 7-3", "case07");
             settings.Add("055a", false, "Case 7-4", "case07");
 
@@ -71,6 +71,7 @@ startup
 
         //The Facts Splits
         settings.Add("facts", true, "The Facts", "splits");
+			settings.Add("060d", false, "Harvesters", "facts");
             settings.Add("062c", false, "Stacey", "facts");
 
         //Overtime Splits
@@ -90,7 +91,7 @@ startup
         settings.Add("psycho", true, "Psychopaths", "splits");
             settings.Add("077_", false, "Antoine", "psycho");
             settings.Add("083_", false, "Bibi", "psycho");
-                settings.Add("083a", false, "Alternate Bibi", "083_");
+            	settings.Add("083a", false, "Alternate Bibi", "psycho");
             settings.Add("090_", false, "Carl", "psycho");
             settings.Add("079_", false,"Chuck", "psycho");
             settings.Add("099_", false, "Evan", "psycho");
